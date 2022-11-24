@@ -8,7 +8,7 @@ terraform {
 
 provider "aws" {
   region  = "eu-central-1"
-  profile = "aws-akshay"
+  profile = "aws-profile-name"
 }
 
 resource "aws_vpc" "demo-vpc" {
